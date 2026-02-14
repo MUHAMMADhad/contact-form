@@ -17,7 +17,7 @@ body {
   align-items: center;
 }
 
-form {
+#myForm {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ form {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-form h2 {
+#myForm h2 {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -70,7 +70,7 @@ button:hover {
   .container {
     padding: 20vh;
   }
-  form {
+  #myForm {
     width: 80%;
   }
 }
@@ -79,7 +79,7 @@ button:hover {
   .container {
     padding: 10vh;
   }
-  form {
+  #myForm {
     width: 90%;
   }
 }
@@ -88,7 +88,7 @@ button:hover {
   .container {
     padding: 5vh;
   }
-  form {
+  #myForm {
     width: 100%;
   }
 }
