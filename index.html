@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      ,
+      content="A simple contact form with accessibility features."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container" role="main">
+      <form action="#" role="form">
+        <h2 role="heading">Contact Form</h2>
+        <label for="FullName">Full Name:</label>
+        <input
+          type="text"
+          id="FullName"
+          name="FullName"
+          placeholder="Full Name"
+          required
+        />
+
+        <label for="Email">Email:</label>
+        <input
+          type="text"
+          id="Email"
+          name="Email"
+          placeholder="Email"
+          required
+        />
+
+        <label for="Subject">Subject:</label>
+        <input
+          type="text"
+          id="Subject"
+          name="Subject"
+          placeholder="Subject"
+          required
+        />
+
+        <label for="Message">Message:</label>
+        <textarea
+          id="Message"
+          name="Message"
+          placeholder="Message"
+          required
+        ></textarea>
+
+        <button type="submit" role="button">Submit</button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
